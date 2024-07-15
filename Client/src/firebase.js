@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyARHUkUG3GnAcHLV4DjZ9cqS56fPElH7TE",
   authDomain: "blogapp-fae5b.firebaseapp.com",
   projectId: "blogapp-fae5b",
   storageBucket: "blogapp-fae5b.appspot.com",
