@@ -31,13 +31,13 @@ Follow these instructions to get a copy of the project up and running on your lo
    Open your terminal and clone the forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/PrittoRuban/MERN_Blog.git
+   git clone https://github.com/piyushgr/khabar.git
    ```
 
 3. **Navigate to the Backend Directory**
 
    ```bash
-   cd MERN_Blog
+   cd khabar
    ```
 
 4. **Install Backend Dependencies**
