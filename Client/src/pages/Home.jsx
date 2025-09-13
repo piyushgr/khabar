@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import WelcomeMessage from "../components/WelcomeMessage";
 import { useEffect, useState } from "react";
 import HomePostCard from "../components/HomePostCard";
 import { ClipLoader } from "react-spinners";
@@ -61,9 +60,6 @@ export default function Home() {
         <Loading onLoaded={handleLoaded} />
       ) : (
         <div>
-          <div className="mx-auto p-4 flex flex-col gap-4 py-6">
-            <WelcomeMessage />
-          </div>
           <div className="mx-auto p-4 flex flex-col gap-4 py-6">
             {loading ? (
               <div className="flex justify-center items-center h-64">
